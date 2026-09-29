@@ -8,7 +8,7 @@ async function calculateMean()
 
     // Sending data to Python API
     let response = await fetch(
-        "http://127.0.0.1:8000/api/mean",
+        "https://probability-and-statistics-1420.onrender.com/api/mean",
         {
             method: "POST",
             headers: {
